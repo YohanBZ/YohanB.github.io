@@ -9,3 +9,10 @@
   align-items: center;
   margin: 0 auto;
 }
+
+@media (max-width: 600px){
+  .header {
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
