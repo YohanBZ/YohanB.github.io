@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+.projetos{
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  border-left:#fff solid 2px;
+  border-right:#fff solid 2px;
+}
+
+.projetos h1 {
+  font-size: 3rem;
+  font-family: 'Iceberg', cursive;
+  margin: 40px;
+}
+
+.container {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.card {
+  position: relative;
+  max-width: 260px;
+  height: 360px;
+  margin: 60px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 20px 20px 50px rgba(0,0,0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0);
+  border-top: 1px solid rgba(255,255,255, 0.5);
+  border-left: 1px solid rgba(255,255,255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.card .imgBx {
+  position: relative;
+  width: 260px;
+  height: 120px;
+  top: -80px;
+  filter: drop-shadow(4px 4px 4px #242424);
+}
+
+.card .content {
+  position: relative;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.card .content p {
+  margin-top: 10px;
+  height: 130px;
+}
+
+.card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.card .content a:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid #fff;
+}

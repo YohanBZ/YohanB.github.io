@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+.sobre{
+  max-width: 1200px;
+  padding: 20px 10px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  border-left:#fff solid 2px;
+  border-right:#fff solid 2px;
+}
+
+.sobre-info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  border: .2em solid #fff;
+  box-shadow: 20px 20px 50px rgba(0,0,0, 0.5);
+  border-radius: 0 180px;
+  background: url(../img/dev-coffee.png) no-repeat center;
+}
+
+.photo {
+  margin: 20px 20px auto;
+  border: .2em solid #fff;
+  box-shadow: 20px 20px 50px rgba(0,0,0, 0.5);
+  border-radius: 20px;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.perfil h1 {
+  font-size: 3rem;
+  font-family: 'Iceberg', cursive;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.perfil p {
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: cursive;
+  color: white;
+}
+
+.sobre a {
+  padding: 8px 20px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 20px;
+  border: .2em solid #fff;
+  box-shadow: 20px 20px 50px rgba(0,0,0, 0.5);
+}
+
+.sobre a:hover {
+  color: #242424;
+  background: #fff
+};
+
+@media (max-width: 830px){
+  .perfil h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .perfil p {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  .sobre-info {
+    border-radius: 0 120px;
+  }
+}
+
+@media (max-width: 760px){
+  .photo{
+    position: relative;
+    max-width: 300;
+    height: auto;
+  }
+  .perfil{
+    max-width: 400px;
+  }
+  .perfil h1{
+    font-size: 2rem;
+    margin-bottom: 0px;
+  }
+  .perfil p {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 600px){
+  .sobre-info{
+    border-radius: 0 100px;
+  }
+  .photo{
+      position: relative;
+      top: -40px;
+      background: rgb(15, 15, 15);
+  }
+  .perfil{
+    position: relative;
+    margin: 0px;
+    align-items: center;
+  }
+  .perfil h1{
+    font-size: 3rem;
+    padding: 5px;
+  }
+  .perfil p {
+    font-size: 1rem;
+  }
+  .perfil a {
+    text-align: end;
+  }
+}

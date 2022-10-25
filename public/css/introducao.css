@@ -1,0 +1,136 @@
+
+.introducao{
+  max-width: 1200px;
+  min-height: calc(100vh - 100px);
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  border-left:#fff solid 2px;
+  border-right:#fff solid 2px;
+}
+
+.scroll-icon {
+  position: relative;
+  margin: .5em;
+  width: 1rem;
+  height: 2rem;
+  border: .2em solid #fff;
+  box-shadow: 0 16px 32px 10px rgba( 31, 38, 135, 0.50 );
+  border-radius: 2em;
+}
+
+.flex-2{
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.text {
+  display: flex;
+  flex: 0 1 1200px;
+  justify-content: center;
+}
+
+.scroll-icon .wheel {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  width: .6em;
+  height: .6em;
+  background-color: #fff;
+  transform: translate(-50%, 0);
+  border-radius: .6em;
+  animation: wheel 1s ease-in-out infinite;
+}
+
+@keyframes wheel {
+  0% {
+    transform: translate(-50%,0);
+  }
+  90%, 100% {
+    transform: translate(-50%, 150%);
+  }
+}
+
+.social ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.social-links {
+	display: flex;
+  justify-content: center;
+}
+
+.social-btn {
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #333;
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.50 );
+  backdrop-filter: blur( 13.5px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 8px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+	margin: 5px;
+	transition: 1s;
+}
+
+.social-btn span, a {
+	width: 0px;
+	overflow: hidden;
+	transition: 1s;
+	text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.social-btn:hover {
+	width: 150px;
+	border-radius: 5px;
+}
+
+.social-btn:hover span, a {
+	padding: 2px;
+	width: max-content;
+}
+
+.flex-center, a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 780px){
+  .text img {
+    width: 462px;
+    height: 385px;
+  }
+}
+
+@media (max-width: 580px){
+  .text img {
+    width: 412px;
+    height: 335px;
+  }
+}
+
+@media (max-width: 480px){
+  .text img {
+    width: 362px;
+    height: 285px;
+    margin-top: 140px;
+  }
+  .flex-2 {
+    gap: 60px;
+    justify-content: flex-start;
+  }
+}
+

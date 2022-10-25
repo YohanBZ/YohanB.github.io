@@ -1,0 +1,25 @@
+body {
+  font-family: 'Fira Sans' , Arial ,sans-serif;
+   margin: 0px;
+   color: #ffffff;
+   background: #242424;
+   /* background: linear-gradient(180deg, #242424 0%, rgba(36, 36, 36, 0.75) 100%, rgba(36, 36, 36, 0.75) 100%, rgba(36, 36, 36, 0.7) 100%); */
+   background: linear-gradient(180deg, #184444 0%, rgba(123, 153, 113, 0.81) 100%);
+ }
+ 
+ h1, h2, h3, h4, p {
+ margin: 0px;
+ }
+ 
+ ul{
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+ }
+ 
+ img {
+   max-width:100% ;
+   height: auto;
+   display: block;
+ }
+ 
