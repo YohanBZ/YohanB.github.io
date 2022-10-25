@@ -152,7 +152,25 @@
       <p class="footer-copy">Copyright © 2022 All rights reserved | by YOHAN .</p>
     </div>
  </footer>
-<script src="/menu.js"></script>
+<script src="/menu.js">
+  const btnMobile = document.querySelector('.btn-mobile');
+
+function toggleMenu(event) {
+  if (event.type === 'touchstart') event.preventDeafault();
+  const nav = document.querySelector('#nav');
+  nav.classList.toggle('active');
+  const active = nav.classList.contains('active');
+  event.currentTarget.setAttribute('aria-expanded', active);
+  if (active) {
+    event.currentTarget.setAttribute('arial-label', 'Fechar Menu');
+  } else {
+    event.currentTarget.setAttribute('arial-label', 'Abrir Menu');
+  }
+}
+
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
+</script>
 </body>
 
 </html>
