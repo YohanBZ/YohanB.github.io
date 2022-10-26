@@ -63,7 +63,20 @@
 .sobre a:hover {
   color: #242424;
   background: #fff
-};
+}
+
+.icons {
+  display: flex;
+  margin: 10px;
+}
+
+.icons img {
+  width: 52px;
+  height: 52px;
+  padding: 0 5px;
+}
+
+
 
 @media (max-width: 830px){
   .perfil h1{
