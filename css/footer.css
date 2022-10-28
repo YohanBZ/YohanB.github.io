@@ -31,6 +31,10 @@
   color: #8f8f8f;
 }
 
+.footer img {
+  filter: drop-shadow(4px 4px 4px #242424);
+}
+
 @media (max-width: 800px) {
   .footer-container{
     font-size: 1.5rem;
