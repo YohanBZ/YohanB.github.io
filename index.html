@@ -9,8 +9,9 @@
   <meta name="theme-color" content="#242424">
 
   <link rel="icon" href="./favicon.svg" type="image/svg=xml">
-  <link rel="stylesheet" href="./css/styles.css">
   <link rel="preload" href="./css/styles.css" as="styles">
+  <link rel="stylesheet" href="./css/styles.css">
+  
 
 </head>
 
@@ -22,8 +23,11 @@
   </header>
 
   <main class="introducao">
+    <video autoplay muted loop>
+      <source src="./public/img/hero.mp4" type="video/mp4">
+    </video>
     <div class="text">
-      <img src="./public/img/yb3.png" alt="Logo YohanBarboza" width="512" height="435">
+      <img src="./public/img/yohan.svg" alt="Logo YohanBarboza" width="612" height="435">
     </div>
     <section class="flex-2">
       <div class="scroll-icon">
@@ -59,17 +63,17 @@
 
   <section class="sobre" id="sobre">
     <div class="sobre-info">
-      <img class="photo" src="./public/img/Avatar.png" alt="Foto de perfil" width="165" height="135">
+      <img class="photo" src="./public/img/kevin-canlas-ia7-T2bjDb4-unsplash2.jpg" alt="Foto de perfil" width="265" height="399">
       <div class="perfil">
         <h1>SOBRE MIM</h1>
-        <p>Oi meu nome é Yohan, atualmente curso Análise e Desenvolvimento de Software e
-        amo tecnologia e tudo que ela nos proporciona,hoje estou em transição de carreira, e nesse início de minha nova jornada busco com dedicação e vontade de aprender, uma nova oportunidade no mercado de trabalho onde possa colocar em prática todo meu conhecimento.</p>
-        <div class="icons">
-          <img src="./public/img/html-5.svg" width="52" height="52" alt="icon-html">
-          <img src="./public/img/css-3.svg" width="52" height="52"  alt="icon-css">
-          <img src="./public/img/js.svg" width="42" height="42"  alt="icon-javaScript">
-          <img src="./public/img/react.svg" width="52" height="52"  alt="icon-react">
-        </div>
+        <p>Olá, meu nome é Yohan Barboza, muito prazer em te conhecer! Meu inicio no mundo da programação se deu há quase 1 ano, quando entrei na faculdade de Análise e desenvolvimento de sistemas. Desde então ando me especializando na área Front-end para criar produtos úteis e de boa qualidade para os seus usuários. Alguns dos meus objetivos são ter um crescimento continuo, impactar a vida das pessoas e construir interfaces de qualidade.</p>
+         <div class="icons">
+          <h3>Algumas Skills:</h3>
+          <img src="./public/img/icons8-html-5.svg" width="52" height="52" alt="icon-html">
+          <img src="./public/img/icons8-css3.svg" width="52" height="52"  alt="icon-css">
+          <img src="./public/img/icons8-javascript.svg" width="42" height="42"  alt="icon-javaScript">
+          <img src="./public/img/icons8-react.svg" width="52" height="52"  alt="icon-react">
+        </div> 
       </div>
     </div>
   </section>
@@ -77,71 +81,105 @@
   <section class="projetos" id="projetos">
     <h1>Projetos</h1>
     <ul class="container">
-      <li class="card">
+      <li class="box">
         <div class="imgBx">
-          <img src="./public/img/bike.svg" alt="imagem do website" width="320" height="120">
+          <img src="./public/img/Desktop - 1.png " width="350" height="250" alt="site Bikcraft">
         </div>
         <div class="content">
-          <h2>Bikcraft</h2>
-          <p>Projeto acadêmico que consiste em um e-commerce de bicicletas, desenvolvido no curso de HTML E CSS da origamid.</p>
-          <a href="https://yohanbz.github.io/bikcraft/ " target="_blank">Visualizar</a>
+          <div>
+            <h2>Bikcraft</h2>
+            <p>Projeto acadêmico que consiste em um e-commerce de bicicletas, desenvolvido no curso de HTML E CSS da origamid.
+            </p>
+            <a href="" class="btn-site">Visualizar</a>
+          </div>
         </div>
       </li>
-      <li class="card">
+      <li class="box">
         <div class="imgBx">
-          <img src="./public/img/game.svg" alt="imagem do website" width="320" height="120">
+          <img src="./public/img/Desktop - 2.png" width="350" height="250" alt="site Wildbeast">
         </div>
         <div class="content">
-          <h2>Game Warrior</h2>
-          <p>Meu primeiro projeto desenvolvido nos primeiros dias de estudo Front-end, um website sobre games.</p>
-          <a href="https://yohanbz.github.io/GameWarrior/" target="_blank">Visualizar</a>
+          <div>
+            <h2>Wildbeast</h2>
+            <p>Projeto de um blog desenvolvido no curso de Grid layout da Origamid.
+            </p>
+            <a href="" class="btn-site">Visualizar</a>
+          </div>
         </div>
       </li>
-      <li class="card">
+      <li class="box">
         <div class="imgBx">
-          <img src="./public/img/wild.svg" alt="imagem do website" width="320" height="120">
+          <img src="./public/img/Desktop - 3.png" width="350" height="250" alt="site Game Warrior">
         </div>
         <div class="content">
-          <h2>Wildbeast</h2>
-          <p>Projeto de um blog desenvolvido no curso de Grid layout da Origamid.</p>
-          <a href="https://yohanbz.github.io/Wildbeast/" target="_blank">Visualizar</a>
+          <div>
+            <h2>Game Warrior</h2>
+            <p>Meu primeiro projeto desenvolvido nos primeiros dias de estudo Front-end, um website sobre games.</p>
+            <a href="" class="btn-site">Visualizar</a>
+          </div>
         </div>
       </li>
-      <li class="card">
+      <li class="box">
         <div class="imgBx">
-          <img src="./public/img/card.svg" alt="imagem do website" width="320" height="120">
+          <img src="./public/img/Desktop - 4.png" width="350" height="250" alt="site Animais Fantasticos">
         </div>
         <div class="content">
-          <h2>Rocketpay </h2>
-          <p>Simula um formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.</p>
-          <a href="" target="_blank">Visualizar</a>
-        </div>
-      </li>
-      <li class="card">
-        <div class="imgBx">
-          <img src="./public/img/animais.svg" alt="imagem do website" width="320" height="120">
-        </div>
-        <div class="content">
-          <h2>Animais Fantasticos</h2>
+          <div>
+            <h2>Animais Fantasticos</h2>
             <p>Projeto desenvolvido a partir do curso de JavaScript ES6+ completo da Origamid, para por em prática meus estudos em JS.</p>
-          <a href="https://yohanbz.github.io/animais-fantasticos.github.io/" target="_blank">Visualizar</a> 
+            <a href="" class="btn-site">Visualizar</a>
+          </div>
         </div>
       </li>
-      <li class="card">
+      <li class="box">
         <div class="imgBx">
-          <img src="./public/img/emBreve.svg" alt="imagem do website" width="320" height="120">
+          <img src="./public/img/Desktop -5 .png" width="350" height="250" alt="sistema Rocketpay">
         </div>
         <div class="content">
-          <h2>EM BREVE</h2>
-          <p>Novo projeto sendo realizado em  ReactJS.</p>
-          <!-- <a href="" target="_blank">Visualizar</a> -->
+          <div>
+            <h2>Rocketpay</h2>
+            <p>Simula um formulário de preenchimento de cartão de crédito, onde é possível adicionar máscara aos inputs e atualizar elementos HTML via DOM.</p>
+            <a href="" class="btn-site">Visualizar</a>
+          </div>
         </div>
       </li>
-    </ul>
+      <li class="box">
+        <div class="imgBx">
+          <img src="./public/img/embreve.svg" width="350" height="250">
+        </div>
+        <div class="content">
+          <div>
+            <h2>Em Breve</h2>
+            <p>Novo projeto sendo realizado em ReactJS.</p>
+            <!-- <a href="" class="btn-site">Visualizar</a> -->
+          </div>
+        </div>
+      </li>
+    </li>
+  </section>
+  <section class="frase">
+    <h1>Vamos fazer algo incrível juntos...</h1>
   </section>
   <footer class="footer" id="contato">
     <div class="footer-container">
-      <img src="./public/img/macintosh.png" width="320" height="320" alt="imagem de um macintosh">
+      <img src="./public/img/macintosh.png" width="120" height="120" alt="imagem de um macintosh">
+      <ul class='social-links'>
+        <li class='btn'>
+          <a href="mailto:barbozayohan@gmail.com" target="_blank">
+            <img src="./public/img/gmail.svg" width="26" height="26" alt="icon Gmail">
+          </a>
+        </li>
+        <li class='btn'>
+          <a href="https://www.linkedin.com/in/yohan-barboza-8b1609150/" target="_blank">
+            <img src="./public/img/linkedin.svg" width="26" height="26" alt="icon linkedin">
+          </a>
+        </li>
+        <li class='btn'>
+          <a href="https://github.com/YohanBZ" target="_blank">
+            <img src="./public/img/github.svg" width="26" height="26" alt="icon github">
+          </a>
+        </li>
+      </ul>
       <p class="footer-texto">Passando por melhorias e atualizações constante.👋</p>
       <p class="footer-copy">Copyright © 2022 All rights reserved | by YOHAN .</p>
     </div>

@@ -2,14 +2,20 @@
 .introducao{
   max-width: 1200px;
   min-height: calc(100vh - 100px);
-  padding: 10px;
+  padding: 15px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
-  border-left:#fff solid 2px;
-  border-right:#fff solid 2px;
+}
+
+.introducao video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
 }
 
 .scroll-icon {
@@ -18,7 +24,7 @@
   width: 1rem;
   height: 2rem;
   border: .2em solid #fff;
-  box-shadow: 0 16px 32px 10px rgba( 31, 38, 135, 0.50 );
+  box-shadow: 0 16px 32px 10px rgba(106, 107, 119, 0.5);
   border-radius: 2em;
 }
 
@@ -26,12 +32,15 @@
   display: flex;
   width: 1200px;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .text {
+  position: relative;
   display: flex;
   flex: 0 1 1200px;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-top: 5rem;
 }
 
 .scroll-icon .wheel {
@@ -67,7 +76,6 @@
 	font-family: 'Titillium Web', sans-serif;
 	color: #333;
   background: rgba( 255, 255, 255, 0.15 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.50 );
   backdrop-filter: blur( 13.5px );
   -webkit-backdrop-filter: blur( 10px );
   border-radius: 8px;
@@ -82,7 +90,7 @@
 	transition: 1s;
 	text-align: center;
   text-decoration: none;
-  color: #333;
+  color: #fff;
 }
 
 .social-btn:hover {
@@ -101,14 +109,14 @@
 	align-items: center;
 }
 
-@media (max-width: 780px){
+@media (max-width: 801px){
   .text img {
     width: 462px;
     height: 385px;
   }
 }
 
-@media (max-width: 580px){
+@media (max-width: 600px){
   .text img {
     width: 412px;
     height: 335px;
@@ -119,10 +127,9 @@
   .text img {
     width: 362px;
     height: 285px;
-    margin-top: 140px;
   }
   .flex-2 {
-    gap: 60px;
+    gap: 40px;
     justify-content: flex-start;
   }
 }

@@ -1,0 +1,28 @@
+.frase{
+  position: relative;
+  max-width: 1400px;
+  height: 50vh;
+  padding: 20px 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #0a0a0a;
+}
+
+.frase h1 {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  -webkit-text-fill-color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+@media (max-width: 480px){
+  .frase{
+    height: 30vh;
+  }
+  .frase h1 {
+   font-size: 1.5rem;
+  }
+}

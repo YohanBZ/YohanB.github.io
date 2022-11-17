@@ -1,54 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
 
 .sobre{
-  max-width: 1200px;
+  position: relative;
+  max-width: 1400px;
+  min-height: 100vh;
   padding: 20px 10px;
-  margin: 50px auto;
+  margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   align-items: center;
-  border-left:#fff solid 2px;
-  border-right:#fff solid 2px;
+  background: #000;
+  border-top: 1px solid #a5a5a5;
 }
 
 .sobre-info {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
-  border: .2em solid #fff;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.9);
-  border-radius: 0 180px;
-  background: url(../img/dev-coffee.png) no-repeat center;
-}
+  margin-left: 5rem;
+  max-width: 1000px;
+} 
 
 .photo {
-  margin: 20px 20px auto;
-  border: .2em solid #fff;
-  box-shadow: 20px 20px 50px rgba(0,0,0, 0.5);
-  border-radius: 20px;
+  margin: 20px;
+  border: 1px solid #a5a5a5;
 }
 
 .perfil {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  max-width: 600px;
   margin: 20px auto;
 }
 
 .perfil h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: 'Iceberg', cursive;
-  margin-bottom: 10px;
-  padding: 10px;
+  padding: 5px;
+  text-decoration: 4px underline;
 }
 
 .perfil p {
-  padding: 10px;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family:Arial, Helvetica, sans-serif;
-  color: white;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-family:'Courier New', Courier, monospace;
+  color: #a5a5a5;
 }
 
 .sobre a {
@@ -57,7 +53,6 @@
   color: #fff;
   border-radius: 20px;
   border: .2em solid #fff;
-  box-shadow: 20px 20px 50px rgba(0,0,0, 0.5);
 }
 
 .sobre a:hover {
@@ -67,7 +62,8 @@
 
 .icons {
   display: flex;
-  margin: 10px;
+  flex-wrap: wrap;
+  margin: 1.5rem;
 }
 
 .icons img {
@@ -79,61 +75,56 @@
 
 
 
-@media (max-width: 830px){
+@media (max-width: 1021px){
+  .perfil {
+    width: 500px;
+  } 
   .perfil h1{
     font-size: 2.5rem;
     margin-bottom: 20px;
   }
   .perfil p {
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 1rem;
+  }
+  .photo {
+    width: 180px;
+    height: 260px;
+    margin: 10px;
+    border: 1px solid #a5a5a5;
   }
   .sobre-info {
     border-radius: 0 120px;
   }
 }
 
-@media (max-width: 760px){
-  .photo{
-    position: relative;
-    max-width: 300;
-    height: auto;
+
+@media (max-width: 620px){
+  .sobre-info{
+    margin: 1rem;
   }
   .perfil{
     max-width: 400px;
-  }
-  .perfil h1{
-    font-size: 2rem;
-    margin-bottom: 0px;
-  }
-  .perfil p {
-    font-size: 1rem;
-    font-weight: bold;
-  }
-}
-
-@media (max-width: 600px){
-  .sobre-info{
-    border-radius: 0 100px;
-  }
-  .photo{
-      position: relative;
-      top: -40px;
-      background: rgb(15, 15, 15);
-  }
-  .perfil{
-    position: relative;
-    margin: 0px;
     align-items: center;
   }
   .perfil h1{
     font-size: 3rem;
-    padding: 5px;
   }
   .perfil p {
     font-size: 1rem;
   }
   .perfil a {
     text-align: end;
+  }
+}
+
+@media (max-width: 480px){
+  .perfil{
+    max-width: 300px;
+  }
+  .perfil h1{
+    font-size: 2rem;
+  }
+  .perfil p {
+    font-size: 1rem;
   }
 }
