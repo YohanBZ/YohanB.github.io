@@ -22,6 +22,8 @@
 } 
 
 .photo {
+  width: 265px;
+  height: 399px;
   margin: 20px;
   border: 1px solid #a5a5a5;
 }
@@ -45,19 +47,6 @@
   font-size: 1.2rem;
   font-family:'Courier New', Courier, monospace;
   color: #a5a5a5;
-}
-
-.sobre a {
-  padding: 8px 20px;
-  margin: 10px;
-  color: #fff;
-  border-radius: 20px;
-  border: .2em solid #fff;
-}
-
-.sobre a:hover {
-  color: #242424;
-  background: #fff
 }
 
 .icons {
@@ -110,10 +99,7 @@
     font-size: 3rem;
   }
   .perfil p {
-    font-size: 1rem;
-  }
-  .perfil a {
-    text-align: end;
+    font-size: 1.125rem;
   }
 }
 
@@ -123,8 +109,5 @@
   }
   .perfil h1{
     font-size: 2rem;
-  }
-  .perfil p {
-    font-size: 1rem;
   }
 }

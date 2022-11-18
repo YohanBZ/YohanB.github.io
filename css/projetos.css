@@ -119,6 +119,7 @@
   color: #fff;
   transition: 0.5s;
   font-size: .8rem;
+  font-family:'Courier New', Courier, monospace;
   margin-bottom: 0.5rem;
   transform: translateY(200px);
 }
@@ -147,8 +148,20 @@
   .projetos h1 {
     font-size: 3.5rem;
   }
+  .container .box .content h2 {
+    font-size: .8rem;
+  }
+  .container .box.content p,
+  .container .box .btn-site {
+    font-size: .5rem;
+  }
   .container .box {
     width: 16rem;
     height: 10rem;
+  }
+  .container .box .content{
+    width: 16rem;
+    height: 10rem;
+    padding: 10px;
   }
 }

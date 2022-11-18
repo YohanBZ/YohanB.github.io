@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background: #000;
 }
 
 .introducao video {
@@ -129,7 +130,7 @@
     height: 285px;
   }
   .flex-2 {
-    gap: 40px;
+    gap: 60px;
     justify-content: flex-start;
   }
 }
