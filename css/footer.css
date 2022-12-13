@@ -31,14 +31,15 @@
   color: #f7f7f7;
 }
 
-.footer img {
+.footer .mac {
   filter: drop-shadow(4px 4px 4px #242424);
 }
+
 .social-links .btn {
   padding: 10px;
 }
 @media (max-width: 800px) {
   .footer-container{
     font-size: 1.5rem;
-}
+  }
 }

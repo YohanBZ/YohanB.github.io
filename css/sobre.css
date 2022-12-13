@@ -1,22 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
 
 .sobre{
   position: relative;
   max-width: 1400px;
-  min-height: 100vh;
   padding: 20px 10px;
   margin: auto;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   align-items: center;
-  background: #000;
-  border-top: 1px solid #a5a5a5;
+  background: rgb(8, 8, 8);
 }
 
 .sobre-info {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 4rem;
   margin-left: 5rem;
   max-width: 1000px;
 } 
@@ -38,15 +36,15 @@
 .perfil h1 {
   font-size: 4rem;
   font-family: 'Iceberg', cursive;
-  padding: 5px;
+  padding: 1rem;
   text-decoration: 4px underline;
 }
 
 .perfil p {
-  padding: 5px;
-  font-size: 1.2rem;
+  padding: 1rem;
+  font-size: 1.3rem;
   font-family:'Courier New', Courier, monospace;
-  color: #a5a5a5;
+  color: #b3b3b3;
 }
 
 .icons {
@@ -70,7 +68,7 @@
   } 
   .perfil h1{
     font-size: 2.5rem;
-    margin-bottom: 20px;
+    padding: 0.5rem;
   }
   .perfil p {
     font-size: 1rem;

@@ -1,8 +1,31 @@
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0f0f0f #ffffff;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #eeeeee;
+  border-radius: 20px;
+  border: 3px solid #eeeeee;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
 body {
   font-family: 'Fira Sans' , Arial ,sans-serif;
    margin: 0px;
    color: #ffffff;
-   background: #000;
+   background: #000000;
   }
  
  h1, h2, h3, h4, p {
