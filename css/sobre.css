@@ -40,7 +40,8 @@
   text-decoration: 4px underline;
 }
 
-.perfil p {
+.perfil blockquote {
+  margin: 0;
   padding: 1rem;
   font-size: 1.3rem;
   font-family:'Courier New', Courier, monospace;
@@ -56,7 +57,7 @@
     font-size: 2.5rem;
     padding: 0.5rem;
   }
-  .perfil p {
+  .perfil blockquote {
     font-size: 1rem;
   }
   .photo {
@@ -82,7 +83,7 @@
   .perfil h1{
     font-size: 3rem;
   }
-  .perfil p {
+  .perfil blockquote {
     font-size: 1.125rem;
   }
 }
