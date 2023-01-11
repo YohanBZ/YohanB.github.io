@@ -6,11 +6,11 @@
 }
 
 .tecnologias  h1 {
-  /* font-family: 'Iceberg', cursive; */
   text-align: center;
   text-decoration: underline;
   font-size: 1.5rem;
   margin-bottom: 4rem;
+  letter-spacing: 0.2rem;
   color: rgb(255, 255, 255);
   -webkit-text-fill-color: rgb(0, 0, 0);
   -webkit-text-stroke: 1px rgb(255, 255, 255);
